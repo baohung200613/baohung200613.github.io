@@ -1,5 +1,5 @@
 // Connect to the server
-const socket = new WebSocket("ws://6a9.strangled.net:19132");
+const socket = new WebSocket("wss://6a9.strangled.net:19132");
 
 const button = document.getElementById("MessageSend")
 const messageBar = document.getElementById("ChatBar")
